@@ -5,7 +5,7 @@ provider "aws" {
   region     = "us-west-1"
 }
 
-/* Spin an instance */
+/* Spin-up an instance */
 resource "aws_instance" "example" {
   ami           = "ami-16efb076"
   instance_type = "t2.micro"
